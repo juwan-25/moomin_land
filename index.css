@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, img {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link { 
+    color: #757575; 
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+a:visited { color: #757575; 
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+a:hover { 
+    color: black; 
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+a:active { 
+    color: black; 
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: #fff!important;
+}
+
+body {
+    width: 100%;
+    min-width: 1200px;
+    overflow-x: hidden;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#header {
+    position: relative;
+    background: #fff;
+    padding-top: 158px;
+    height: 0px;
+}
+
+.fixed-top2 {
+    position: fixed;
+    top: 42px;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.fixed-top3 {
+    position: fixed;
+    top: 119px;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.nav .active a{
+
+    background-color:#000 !important;
+
+}
+
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.navbar {
+    padding: 0;
+    height: 42px;
+    border-bottom: 2px solid #000;
+}
+
+.container-fluid {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.navbar-nav {
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: black;
+    --bs-nav-link-hover-color: black;
+    --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+#header .grayBG {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 42px;
+    background: #fff !important;
+    border-bottom: 2px solid #000;
+}
+
+#header .logotab {
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 77px;
+    line-height: 77px;
+    background: #fff;
+    border-bottom: 2px solid #000;
+}
+
+#header .inner {
+    position: relative;
+    margin-left: 11.5%;
+    margin-right: 11.5%;
+}
+
+#header .logo {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#header .logoimg {
+    width: 180px;
+}
+
+.logomenu {
+    display: inline-block;
+    position: relative;
+    height: 77px;
+    float: right !important ;
+}
+
+.logomenu ul li {
+    display: inline-block;
+
+}
+
+
+
+.instaimg {
+    width: 26px;
+    margin-left: 10px;
+}
+
+
+.faceimg {
+    width: 26px;
+    margin-left: 10px;
+}
+
+a.menu_truck {
+    padding: 10px 17px 5px 44px;
+    background: url(./img/ico_truck.png) no-repeat top 62% left 14px;
+    background-size: 22px auto;
+    font-size: 13px;
+    color: #333333;
+}
+
+.logomenu ul li.bar {
+    content: '';
+    height: 22px;
+    width: 1px;
+    display: inline-block;
+    background: #000;
+    position: absolute;
+    margin-top: 28px;
+}
+
+a.menu_basket {
+    padding: 10px 10px 5px 22px;
+    background: url(./img/ico_basket.png) no-repeat center left;
+    background-size: 16px auto;
+    font-size: 13px;
+    color: #333333;
+}
+
+.shoptab {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 119px;
+    background: #fff;
+    border-bottom: 2px solid #000;
+}
+
+.shoptab ul li {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: 40px;
+    z-index: 99;
+}
+
+.shoptab .nav-link {
+    display: block;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    padding: 0 42px;
+}
+.shoptab .nav-link:hover {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.shoptab li:last-of-type a {
+    color: #56b3e4 !important;
+}
+
+.building {
+    margin: 220px auto;
+    width: 1200px;
+    text-align: center;
+}
+
+.title h2 {
+    font-size: 36px;
+    color: #222;
+    text-align: left;
+    font-family: 'Noto Sans KR';
+    font-weight: 600;
+    margin-left: 28px;
+    line-height: 1em;
+}
+
+.event {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.mt_90 {
+    margin-top: 90px !important;
+}
+
+.eventimg {
+    margin-top: 65px;
+}
+
+.imgLink img {
+    display: inline-block;
+    width: 578px;
+    height: auto;
+    margin: 0px 0px 30px 0px;
+}
+
+.eventimg li {
+    display: inline-block;
+    vertical-align: top;
+    background: #fff;
+    position: relative;
+}
+
+.eventcont1 {
+    padding-right: 19px;
+}
+
+.eventcont2 {
+    padding-left: 19px;
+}
+
+#frm {
+    display: inline-block;
+}
+.newitem {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.newitemcont {
+    display: inline-block;
+    background: #fff;
+    padding: 0 15.5px;
+    margin-bottom: 45px;
+}
+
+.productLink img {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 12px;
+    width: 266px;
+}
+
+.product_name {
+    text-align: left;
+    font-weight: 200;
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 7px;
+}
+
+.product_sel {
+    font-size: 14px;
+    color: #222222;
+    font-weight: 600;
+}
+
+.mb_30 {
+    margin-bottom: 30px !important;
+}
+
+#footer {
+    position: relative;
+    margin-top: 300px;
+    height: 290px;
+    clear: both;
+    background: #999999;
+    padding: 44px 0 50px 0;
+}
+
+
+#footer .inner {
+    overflow: hidden;
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.xans-layout-footer {
+    position: relative;
+    float: none;
+    width: 100%;
+} 
+
+.xans-layout-footer ul {
+    margin-top: 15px;
+    display: block !important;
+}
+
+.xans-layout-footer ul li {
+    font-family: 'Noto Sans KR', sans-serif;
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+
+.xans-layout-footer ul li h2 {
+    font-size: 15px;
+    font-weight: 900;
+    color: #000000;
+}
+
+.xans-layout-footer ul li p {
+    font-weight: 400;
+    color: #000;
+    font-size: 15px;
+}
+
+.mt_5 {
+    margin-top: 5px !important;
+}
+
+.mt_20 {
+    margin-top: 20px !important;
+}
